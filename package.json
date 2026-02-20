@@ -1,0 +1,22 @@
+{
+  "name": "secure-file-storage",
+  "version": "1.0.0",
+  "description": "Secure File Storage System Using Hybrid Cryptography",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/somo9909/secure-file-storage.git"
+  },
+  "keywords": [
+    "encryption",
+    "file-storage",
+    "security",
+    "cryptography",
+    "end-to-end-encryption",
+    "aes-256",
+    "rsa-2048"
+  ],
+  "author": "somo9909",
+  "license": "MIT",
+  "homepage": "https://somo9909.github.io/secure-file-storage"
+}
