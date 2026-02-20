@@ -2,6 +2,13 @@
 
 A secure file storage system where users can upload and download files, but the server cannot read the file contents. Even if the server or database is compromised, stored files remain confidential.
 
+## 🌐 Live Demo
+
+**Frontend:** [View Live Site](https://somo9909.github.io/secure-file-storage)  
+**Repository:** [GitHub](https://github.com/somo9909/secure-file-storage)
+
+> **Note:** Backend needs to be deployed separately. See [DEPLOYMENT.md](./DEPLOYMENT.md) for setup instructions.
+
 ## Architecture Overview
 
 This system uses **Hybrid Cryptography**, combining:
