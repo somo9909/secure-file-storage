@@ -1,0 +1,20 @@
+services:
+  - type: web
+    name: secure-file-storage-backend
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 10000
+      - key: JWT_SECRET
+        generateValue: true
+      - key: FRONTEND_URL
+        value: https://somo9909.github.io/secure-file-storage
+      - key: DB_PATH
+        value: /opt/render/project/src/database/storage.db
+      - key: UPLOAD_DIR
+        value: /opt/render/project/src/uploads
